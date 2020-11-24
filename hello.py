@@ -6,3 +6,6 @@ sum = num1 + num2
 print("The sum of the two numbers entered is", sum)
 product = num1 * num2
 print(num1, "x", num2, "=", product)
+if num2 != 0:
+	quotient = num1 / num2
+	print(num1, "/", num2, "=", quotient)
