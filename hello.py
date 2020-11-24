@@ -9,3 +9,5 @@ print(num1, "x", num2, "=", product)
 if num2 != 0:
 	quotient = num1 / num2
 	print(num1, "/", num2, "=", quotient)
+	remainder = num1%num2
+	print(num1, "mod", num2, "=", remainder	)
